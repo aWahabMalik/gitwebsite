@@ -44,67 +44,76 @@
 
         <div class="commands">
             <div class="heading"><h3>Some Starting Commands</h3></div>
-            <div class="body">
-                <div class="bHeader"> Git Simple Commands: </div>
-                <div class="txt">
-                    <ul>
-                        <li>git init</li>
-                        <li>git add</li>
-                        <li>git commit</li>
-                        <li>git status</li>
-                        <li>git push</li>
-                        <li>git pull</li>
-                    </ul>
+            <div class="bHeader"> Git Simple Commands: </div>
+            <div class="txt">
+                <ul>
+                    <li>git init</li>
+                    <li>git add</li>
+                    <li>git commit</li>
+                    <li>git status</li>
+                    <li>git push</li>
+                    <li>git pull</li>
+                </ul>
+            </div>
 
+            <div class = "bHeader">git init</div>
+            <div class="txt">
+                The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/2.png" alt="Not available"></div>
+            </div>
 
-                    <div class = "bHeader">git init</div>
-                    <div class="txt">
-                        The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
-                    </div>
-                    <div class="LecPics">
-                        <div><img style = "width: 72%;" src="LecPics/2.png" alt="Not available"></div>
-                    </div>
-
-                    <div class = "bHeader">git status</div>
-                    <div class="txt">
-                        The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes. This command will not show any commit records or information.
-                    </div>
-                    <div class="LecPics">
-                        <div><img style = "width: 72%;" src="LecPics/status.png" alt="Not available"></div>
-                    </div>
-
-                    <div class = "bHeader">git add</div>
-                    <div class="txt">
+            <div class = "bHeader">git status</div>
+            <div class="txt">
+                The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes. This command will not show any commit records or information.
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/status.png" alt="Not available"></div>
+            </div>
+            
+            <div class = "bHeader">git add</div>
+            <div class="txt">
                         The git add command is used to add file contents to the Index (Staging Area).This command updates the current content of the working tree to the staging area. It also prepares the staged content for the next commit. Every time we add or update any file in our project, it is required to forward updates to the staging area.
                         The git add command is a core part of Git technology. It typically adds one file at a time, but there some options are available that can add more than one file at once.
                         The "index" contains a snapshot of the working tree data. This snapshot will be forwarded for the next commit.
                         The git add command can be run many times before making a commit. These all add operations can be put under one commit. The add command adds the files that are specified on command line.
-                    </div>
-                    <div class="LecPics">
-                        <div><img style = "width: 72%;" src="LecPics/add.png" alt="Not available"></div>
-                    </div>
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/add.png" alt="Not available"></div>
+            </div>
 
-                    <div class = "bHeader">git commit</div>
-                    <div class="txt">
-                        The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to. Prior to the execution of git commit, The git add command is used to promote or 'stage' changes to the project that will be stored in a commit. These two commands git commit and git add are two of the most frequently used.
-                    </div>
+            <div class = "bHeader">git commit</div>
+            <div class="txt">
+                    The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to. Prior to the execution of git commit, The git add command is used to promote or 'stage' changes to the project that will be stored in a commit. These two commands git commit and git add are two of the most frequently used.
+            </div>
 
-                    <div class = "bHeader">git push</div>
-                    <div class="txt">
-                        The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.
-                    </div>
+            <div class = "bHeader">git push</div>
+            <div class="txt">
+                The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.
+            </div>
 
-                    <div class = "bHeader">git pull</div>
-                    <div class="txt">
-                        The git pull command is used to download remote repository content to a local repository. Pulling is how you transfer commits from a remote repository to your local repository.
-                    </div>
+            <div class = "bHeader">git pull</div>
+            <div class="txt">
+                The git pull command is used to download remote repository content to a local repository. Pulling is how you transfer commits from a remote repository to your local repository.
+            </div>
 
-                </div>
+            <br>
+            <hr>
+            <br>
+
+            <div class="heading"><h3>Cloning A Repository</h3></div>
+            <div class = "bHeader">git clone</div>
+            <div class="txt">
+                git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/clone1.png" alt="Not available"></div>
+                <br><br>
+                <div><img style = "width: 72%;" src="LecPics/clone2.png" alt="Not available"></div>
             </div>
         </div>
-
-
-
     </div>
+</div>
 </body>
 </html>
